@@ -1,0 +1,22 @@
+ESLint has been disabled for a bit during the initial stages
+
+During the development, the eslint has been very aggressive and till we have 
+the chance to caliber it, we have muted it.
+
+When needed to reset it.
+
+1. rename the .eslintrc.json-disabled to .eslintrc.json
+2. remove the note: "please see" part from the json
+3. add the following in the dev part of the package.json file
+    "eslint": "8.8.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.28.0",
+    "eslint-plugin-react-hooks": "4.3.0",
+
+4. remove the package-lock.json
+5. npm install
+6. Enjoy the development
