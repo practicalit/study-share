@@ -1,4 +1,4 @@
-# Study Share
+# Study Share - [Practical IT](https://thePracticalIT.com)
 A full MERN application to share the study materials that are available on the net. 
 This application allow the students to share the link they have used while picking up on the topics they are taking.
 Students can share links per topic and category and others can use and upvote, downvote it and eventually it will be marked as selected resource.
